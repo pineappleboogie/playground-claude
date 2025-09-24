@@ -14,6 +14,20 @@ Building a portfolio website with:
 - Framer Motion for polished interactions
 - Markdown-based content management
 
+## todo.md
+
+Inside of the `tasks` directory, there is a `todo.md` file that contains a list of tasks that need to be completed. Please read the file and follow the instructions.
+
+As you work through the tasks, please update the file to reflect the progress. Please update the file with the progress of the tasks, providing a brief description of what you've done while also checking the tasks as done.
+
+After each section of tasks, please create a new commit with a relevant message. That way we can go back if needed.
+
+- Open and read `tasks/todo.md` for the list of tasks.  
+- Complete each task, then update this file with:  
+  - [x] Mark task as done  
+  - Add a short note on what you did  
+- After finishing a section of tasks, commit your changes with a clear message.  
+
 ## Development Commands
 
 - **Development server**: `npm run dev` (uses Turbopack for fast builds)

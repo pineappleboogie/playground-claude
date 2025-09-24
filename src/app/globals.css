@@ -117,6 +117,77 @@
     @apply border-border outline-ring/50;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-[#faf9f6] text-foreground;
+  }
+}
+
+/* Portfolio Design System Tokens */
+@layer base {
+  :root {
+    /* Portfolio Colors */
+    --portfolio-cream: #faf9f6;
+    --portfolio-blue: #5c7cfa;
+    --portfolio-blue-light: #748ffc;
+    --portfolio-blue-dark: #4c63d2;
+    --portfolio-gray-50: #f9fafb;
+    --portfolio-gray-100: #f3f4f6;
+    --portfolio-gray-200: #e5e7eb;
+    --portfolio-gray-300: #d1d5db;
+    --portfolio-gray-400: #9ca3af;
+    --portfolio-gray-500: #6b7280;
+    --portfolio-gray-600: #4b5563;
+    --portfolio-gray-700: #374151;
+    --portfolio-gray-800: #1f2937;
+    --portfolio-gray-900: #111827;
+
+    /* Typography Scale */
+    --portfolio-text-xs: 0.75rem;    /* 12px */
+    --portfolio-text-sm: 0.875rem;   /* 14px */
+    --portfolio-text-base: 1rem;     /* 16px */
+    --portfolio-text-lg: 1.125rem;   /* 18px */
+    --portfolio-text-xl: 1.25rem;    /* 20px */
+    --portfolio-text-2xl: 1.5rem;    /* 24px */
+    --portfolio-text-3xl: 1.875rem;  /* 30px */
+    --portfolio-text-4xl: 2.25rem;   /* 36px */
+    --portfolio-text-5xl: 3rem;      /* 48px */
+    --portfolio-text-6xl: 3.75rem;   /* 60px */
+
+    /* Spacing Scale */
+    --portfolio-space-1: 0.25rem;    /* 4px */
+    --portfolio-space-2: 0.5rem;     /* 8px */
+    --portfolio-space-3: 0.75rem;    /* 12px */
+    --portfolio-space-4: 1rem;       /* 16px */
+    --portfolio-space-5: 1.25rem;    /* 20px */
+    --portfolio-space-6: 1.5rem;     /* 24px */
+    --portfolio-space-8: 2rem;       /* 32px */
+    --portfolio-space-10: 2.5rem;    /* 40px */
+    --portfolio-space-12: 3rem;      /* 48px */
+    --portfolio-space-16: 4rem;      /* 64px */
+    --portfolio-space-20: 5rem;      /* 80px */
+
+    /* Shadows */
+    --portfolio-shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+    --portfolio-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+    --portfolio-shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    --portfolio-shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+
+    /* Border Radius */
+    --portfolio-radius-sm: 0.25rem;   /* 4px */
+    --portfolio-radius: 0.5rem;       /* 8px */
+    --portfolio-radius-md: 0.75rem;   /* 12px */
+    --portfolio-radius-lg: 1rem;      /* 16px */
+    --portfolio-radius-xl: 1.25rem;   /* 20px */
+    --portfolio-radius-2xl: 1.5rem;   /* 24px */
+  }
+}
+
+@layer utilities {
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .scrollbar-hide {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
   }
 }
