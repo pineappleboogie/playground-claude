@@ -6,6 +6,14 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 This is a Next.js 15 application using TypeScript, React 19, and Tailwind CSS v4. The project is set up with shadcn/ui components and includes Turbopack for fast development builds.
 
+## Project Goals
+Building a portfolio website with:
+- Recruitment-focused case studies (/work section)  
+- Digital garden for exploration (/garden section)
+- Cream paper (#faf9f6) + faded blue (#3771cd) design system
+- Framer Motion for polished interactions
+- Markdown-based content management
+
 ## Development Commands
 
 - **Development server**: `npm run dev` (uses Turbopack for fast builds)
